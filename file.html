@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Чианфаннели</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+   	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+   	<link rel="stylesheet" type="text/css" href="file1.css">
+  </head>
+
+  <body class="m-0 p-0">
+    <div class="bg-secondary mb-0 mx-auto">
+      <div class="mx-lg-auto max">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <img src="logo.png">
+                <a class="navbar-brand" href="#">Государства вселенной Ведьмака</a>
+                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="navbar-collapse collapse" id="navbarColor02" >
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Главная <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">About</a>
+                    </li>
+                  </ul>
+                  
+                </div>
+              </nav>
+       </header>
+     </div>
+    </div>  
+    <div class="container-fluid p-0">
+      <div class="container-fluid d-flex flex-column aligin-itemst-center max p-0">
+        <main>
+          <div class="row">
+           <div class="d-flex flex-column ">
+            <div class="d-flex bg-white rounded mb-0 order-1 justify-content-center ">
+              <h2><a id="home">Магазин</a></h2>
+                <p class="text">К вашему вниманию мы хотели бы представить известные государства вселенной Ведьмака:Нильфгаард,Редания,Тимерия,Каэдвен,Туссент, 
+                 которые Вы можете приобрести.</p>
+              
+            </div>
+          </div>
+            <div class = "order-lg-2 order-3 mb-0 rounded p-2 bg-dark ">
+              <table id="Tabl" class="d-flex table table-bordered justify-content-center">
+                <tbody>
+                  <tr class="bg-dark">
+                    <th colspan="4" style="text-align: center;">Таблица характерстик</th>
+                  </tr>
+                  <tr class="bg-dark">
+                    <th>№ Персонажа</th>
+                    <th>Интелект</th>
+                    <th>Ловкость</th>
+                    <th>Сила</th>
+                  </tr>
+                  <tr class="bg-dark">
+                    <th>1</th>
+                    <th>1568</th>
+                    <th>532</th>
+                    <th>124</th>
+                  </tr>
+                  <tr class="bg-dark">
+                    <th>2</th>
+                    <th>557</th>
+                    <th>2299</th>
+                    <th>211</th>
+                  </tr>
+                  <tr class="bg-dark">
+                    <th>3</th>
+                    <th>100</th>
+                    <th>159</th>
+                    <th>3844</th>
+                  </tr>
+                  <tr class="bg-dark">
+                    <th>4</th>
+                    <th>2000</th>
+                    <th>3589</th>
+                    <th>2499</th>                      
+                  </tr>
+                  <tr class="bg-dark">
+                    <th>5</th>
+                    <th>1</th>
+                    <th>2</th>
+                    <th>3</th>
+                  </tr>
+               </tbody>                  
+              </table>
+            </div>
+        
+            <div class="d-flex mb-0 bg-dark p-3 rounded order-lg-3 order-2 justify-content-center">
+              <h2>Форма</h2>
+              <form id="Forma" action="http://example.com/" method="GET">
+              <label>
+                  Имя:<br />
+                  <input name="name-1" value="Dante" />
+              </label><br />
+      
+              <label>
+                e-mail:<br />
+                <input name="e-mail" value="Dante@mail.ru" />
+              </label><br />
+            
+              <label>
+                Дата рождения:<br />
+                <input name="date"
+                  value="2019-01-01"
+                  type="text" />
+              </label><br />
+      
+              Пол:<br />
+              <label><input type="radio" checked="checked" 
+                name="pol" value="Мужской" />
+                Мужской </label>
+              <label><input type="radio" checked="checked" 
+                name="pol" value="Женский" />
+                Женский </label>
+             <br/>
+              Количество конечностей:<br />
+              <label><input type="radio" checked="checked" 
+                name="konech" value="0" />
+                0 </label>
+              <label><input type="radio" checked="checked" 
+                name="konech" value="1" />
+                1 </label>
+             <label><input type="radio" checked="checked" 
+                name="konech" value="2" /> 
+                2 </label> 
+            <label><input type="radio" checked="checked" 
+                name="konech" value="4" />  
+            4 </label><br />
+           
+      
+              <label> Способности:<br />
+                <select name="sposobnosti[]" multiple="multiple">
+                    <option value="Быстрая регенерация ">Быстрая регенерация</option>
+                    <option value="Умение левитации">Умение левитации</option>
+                    <option value="Телепатия">Телепатия</option>
+                    <option value="Телекинез">Телекинез</option>
+                </select>
+              </label><br />
+            
+              <label> Биография:<br />
+                <textarea name="biog">Впишите сюда вашу биографию</textarea>
+              </label><br />
+      
+              <br />
+              <label><input type="checkbox" 
+                checked="checked" name="check" />
+                С контрактом ознакомлен
+              </label><br /> 
+              <input type="submit" value="Отправить" />
+              </form>
+             </div>
+            </div>
+          </main>
+        </div>
+      </div>
+      <footer class="bg-dark d-flex flex-column justify-content-center mb-0">
+        <h5 class="m-0"> ©Монастырский Павел, 2019</h5>
+      </footer>
+    </body>
+</html>

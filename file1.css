@@ -1,0 +1,35 @@
+body{
+    padding: 0px;
+    background: url(Back2.png);
+}
+html {
+    position: relative;
+    min-height: 100%;
+}
+img{
+    height: 100px;
+    width: 100px;
+}
+main{
+    margin-bottom: 70px;
+}
+
+.pic{
+    height: 100px;
+    width: 100px;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+}main{
+    margin-bottom: 70px;
+}
+.wreth{
+	padding: 1em;
+	border-radius: 0;
+	width: 90%;
+	margin:0 auto;
+	margin-top:20px; 
+}
